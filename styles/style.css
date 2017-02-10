@@ -1,0 +1,160 @@
+
+html, body {
+    margin: 0 auto;
+    height: 100%;
+}
+
+header {
+    background-color: rgba(50, 73, 79, .8);
+    box-shadow: 0 0.5em 1em rgba(1, 1, 1, .5);
+    width: 100%;
+    position: fixed; 
+    top: 0;
+    left: 0;
+    z-index: 99;
+}
+
+header ul {
+    margin: 0;
+    list-style-type: none;
+    display: flex;
+    color: #788188;
+}
+
+header ul li {
+    padding: 20px;
+}
+
+header ul li:nth-child(1) {
+    margin-right:auto;
+
+}
+
+header ul li a {
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+header ul li a:hover {
+    background-color: #2e353b;
+    color: white;
+}
+
+main {
+    height: 100%;
+    /*margin-top: 55px;  */
+    text-align: center;
+}
+
+section {
+    /*margin-bottom: 5px;*/
+    /*height: 50%;*/
+    padding: 60px;
+    /*background-color: rgba(32, 178, 170, 0.6);*/
+    /*box-shadow: 0px 0px 6px 6px rgba(32, 178, 170, 0.7);*/
+    background-color: seashell;
+    box-shadow: 0px 2px 6px 6px seashell;
+    color: #120103;
+    z-index: 10;
+}
+
+.self-intro{
+    display: flex;
+    align-items: flex-start;
+    padding: 20px;
+}
+
+.self-intro .intro-p {
+    width: 80%;
+    padding: 10px;
+}
+
+.self-intro img {
+    width: 130px;
+    border-radius: 10%;
+    margin-left: 40px;
+}
+
+
+section.portfolio ul{
+    margin: 0;
+    /*padding: 20px;*/
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+    /*justify-content: space-around;*/
+}
+
+section.portfolio ul li {
+    margin: 20px;
+    padding: 0 20px 10px;
+}
+
+section.portfolio img {
+    width: 300px;
+    height: 200px;
+}
+
+section.contact ul {
+    margin: 0;
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+}
+
+section.contact li {
+    padding: 10px 20px;
+}
+
+i.fa {
+    font-size: 35px;
+}
+
+.text-caption {
+  font-size: 120%;
+  font-weight: bold;
+}
+
+.text-italic {
+    font-size: 80%;
+    color: dimgray;
+    font-style: italic;
+}
+
+.footer {
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 20px;
+    /*padding: 10px;*/
+}
+
+div.section-title {
+    /*background-color: #ddd;*/
+    padding: 15px;
+    margin: 10px;
+    margin-right: 20px;
+    text-align: left;
+    font-size: 36px;
+    font-weight: bold;
+}
+
+span.name {
+    font-size: 1.8em;
+}
+
+.img-fix {
+  /*flex: 0 0 100%;*/
+  height: 100%;
+  /*margin: 0;*/
+  /*padding: 0;*/
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+}
+
+.img-fix-1 { background-image: url("../images/beach_chairs.jpg"); }
+.img-fix-2 { background-image: url("../images/beach_chairs.jpg"); }
+.img-fix-3 { background-image: url("../images/beach_chairs.jpg"); }
+.img-fix-4 { background-image: url("../images/beach_chairs.jpg"); }
